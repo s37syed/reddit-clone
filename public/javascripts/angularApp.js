@@ -52,7 +52,7 @@ function($scope, posts){
 		if (!$scope.title || $scope.title === '' || !$scope.link ||  $scope.link === '') {alert("Please enter something in the missing text box!"); return; }
 		posts.create({
 			title: $scope.title,
-			link: 'http://' + $scope.link,
+			link:  $scope.link,
 		});
 		$scope.title = '';
 		$scope.link = '';
