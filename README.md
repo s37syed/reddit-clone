@@ -13,3 +13,4 @@ Currently working on a reddit-clone. This is mainly to teach myself how to use t
 * fix links so that 'http://' does not have to be appended to URLs
 * limit upvotes 
 * add downvote button
+* make navigation more intuitive links/comments
