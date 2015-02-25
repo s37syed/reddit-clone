@@ -49,7 +49,7 @@ function($scope, posts){
 	];
 	*/
 	$scope.addPost = function() {
-		if ($scope.title === '') { return; }
+		if (!$scope.title || $scope.title === '' || !$scope.link ||  $scope.link === '') {alert("Please enter something in the missing text box!"); return; }
 		posts.create({
 			title: $scope.title,
 			link: $scope.link,
